@@ -206,7 +206,7 @@ jQuery(document).ready(function($) {
 	    loop: true,
 	    margin:10,
 	    dots: true,
-	    smartSpeed: 10,
+	    smartSpeed: 1000,
 	    responsive:{
 	      6:{
 	        items: 3
