@@ -71,24 +71,7 @@
             ],
             "class": "DepictionStackView",
             "tabname": "Details"
-        },{
-           "views": [
-              {
-                 "class": "DepictionSubheaderView",
-                 "useBoldText": true,
-                 "useBottomMargin": false,
-                 "title": "1.0"
-              },
-              {
-                 "class": "DepictionMarkdownView",
-                 "markdown": "<ul>\n<li>Initial release!<\/li>\n<\/ul>",
-                 "useRawFormat": true
-              }
-           ],
-           "class": "DepictionStackView",
-           "tabname": "Changelog"
-        }
-    ],
+        }],
     "headerImage": "https://yuigawada.github.io/repo/descriptions/CallSlicer/header.png",
     "class": "DepictionTabView"
 }
