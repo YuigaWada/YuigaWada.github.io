@@ -17,7 +17,7 @@
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "Apple Watch does not show you notifications of LINE call.\n\n **CallSlicer enables you to receive LINE call on your Apple Watch!** \n\n\n(The reason why Apple Watch does not is LINE uses Apple's API *CallKit* that integrates the third-party calling apps into the iOS, but Apple Watch doesn't support CallKit.)",
+               "markdown": "Apple Watch does not show you notifications of LINE call. <br><br> **CallSlicer enables you to receive LINE call on your Apple Watch!** <br><br><br>(The reason why Apple Watch does not is LINE uses Apple's API *CallKit* that integrates the third-party calling apps into the iOS, but Apple Watch doesn't support CallKit.)",
                "useRawFormat": true
             },
             {
