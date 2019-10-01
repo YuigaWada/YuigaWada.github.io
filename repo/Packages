@@ -1,9 +1,9 @@
-Package: com.yuigawada.callslicer_1.0
+Package: com.yuigawada.callslicer
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Tweaks
 Maintainer: YuWd
-Filename: ./debs/com.yuigawada.callslicer_1.0.deb
+Filename: ./debs/com.yuigawada.callslicer.deb
 Size: 85648
 MD5sum: 568ea16ace2b10f3d85728ef957a8150
 SHA1: 8543797dee3dd051e471ba665f4b36e5879a879f

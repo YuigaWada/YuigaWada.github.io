@@ -1,93 +1,78 @@
 {
-   "minVersion": "1.0",
-   "class": "DepictionTabView",
-   "tintColor": "",
-   "headerImage": "https://github.com/YuigaWada/CallSlicer/blob/master/Sources/Prefs/Resources/CallSlicer.png?raw=true",
-   "tabs": [
-      {
-         "tabname": "Details",
-         "class": "DepictionStackView",
-         "tintColor": "",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Description"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "Apple Watch does not show you notifications of LINE call. <br><br> **CallSlicer enables you to receive LINE call on your Apple Watch!** <br><br><br>(The reason why Apple Watch does not is LINE uses Apple's API *CallKit* that integrates the third-party calling apps into the iOS, but Apple Watch doesn't support CallKit.)",
-               "useRawFormat": true
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": ""
-            },
-            {
-               "class": "DepictionSeparatorView"
-            },
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "Information"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Author",
-               "text": "YuWd"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Version",
-               "text": "1.0"
-            },
-            {
-               "class": "DepictionTableTextView",
-               "title": "Price",
-               "text": "Free"
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            },
-            {
-               "class": "DepictionStackView",
-               "views": [
-                  {
-                     "class": "DepictionTableButtonView",
-                     "title": "Support",
-                     "action": "Support URL",
-                     "openExternal": true
-                  }
-               ]
-            },
-            {
-               "class": "DepictionSpacerView",
-               "spacing": 16
-            }
-         ]
-      },
-      {
-         "tabname": "Changelog",
-         "class": "DepictionStackView",
-         "tintColor": "Tint Color",
-         "views": [
-            {
-               "class": "DepictionSubheaderView",
-               "useBoldText": true,
-               "useBottomMargin": false,
-               "title": "1.0"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>Initial release!<\/li>\n<\/ul>",
-               "useRawFormat": true
-            }
-         ]
-      }
-   ]
+    "minVersion": "0.1",
+    "tintColor": "#0657bb",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "title": "CallSlicer",
+                    "useBottomMargin": false,
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "A tweak that enables you to receive LINE call on your Apple Watch!",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "url": "",
+                            "accessibilityText": "Screenshot0"
+                        }
+                    ],
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+                    "title": "markdown-description",
+                    "useBottomMargin": false,
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Apple Watch does not show you notifications of LINE call. <br><br> <p>CallSlicer enables you to receive LINE call on your Apple Watch!</p> <br><br><br><br><br><br>(The reason why Apple Watch does not is LINE uses Apple's API <i>CallKit</i> that integrates the third-party calling apps into the iOS, but Apple Watch doesn't support CallKit.)"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "10-01-2019",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "YuWd",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
+        }
+    ],
+    "headerImage": "https://github.com/YuigaWada/CallSlicer/blob/master/Sources/Prefs/Resources/CallSlicer.png?raw=true",
+    "class": "DepictionTabView"
 }
