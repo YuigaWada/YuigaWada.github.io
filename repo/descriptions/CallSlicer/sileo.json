@@ -89,6 +89,6 @@
            "tabname": "Changelog"
         }
     ],
-    "headerImage": "https://github.com/YuigaWada/CallSlicer/blob/master/Sources/Prefs/Resources/CallSlicer.png?raw=true",
+    "headerImage": "https://yuigawada.github.io/repo/descriptions/CallSlicer/header.png",
     "class": "DepictionTabView"
 }
