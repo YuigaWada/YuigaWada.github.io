@@ -1,0 +1,16 @@
+Package: com.yuigawada.callslicer_1.0-1
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: YuWd
+Filename: ./debs/com.yuigawada.callslicer_1.0-1.deb
+Size: 85648
+MD5sum: 568ea16ace2b10f3d85728ef957a8150
+SHA1: 8543797dee3dd051e471ba665f4b36e5879a879f
+SHA256: 7b7ab9fb9cbb6104e34dbb3b745e43261134b7158e1b264dd5f03ab1c1938f73
+SHA512: 8d6b83799e93b64c50ad575adfad331a5fe53c70c0d954b82b67a7eeaa01f5a40436f2395309fdaa588114849118e690a85a197b7a831894ffef46cadfa35a1f
+Description: CallSlicer enables you to receive LINE call on your Apple Watch!
+Name: CallSlicer
+Depiction: http://https://yuigawada.github.io/repo/descriptions/CallSlicer.html
+Author: YuWd
+Icon: https://raw.githubusercontent.com/YuigaWada/CallSlicer/master/Sources/Prefs/Resources/icon%402x.png

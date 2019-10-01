@@ -1,0 +1,8 @@
+Origin: YuWd's Repo
+Label: YuWd
+Suite: stable
+Version: 1.0
+Codename: YuWd
+Architectures: iphoneos-arm
+Components: main
+Description: YuWd's Tweaks
