@@ -72,9 +72,6 @@
             "class": "DepictionStackView",
             "tabname": "Details"
         },{
-           "tabname": "Changelog",
-           "class": "DepictionStackView",
-           "tintColor": "#1dcd00",
            "views": [
               {
                  "class": "DepictionSubheaderView",
@@ -87,7 +84,9 @@
                  "markdown": "<ul>\n<li>Initial release!<\/li>\n<\/ul>",
                  "useRawFormat": true
               }
-           ]
+           ],
+           "class": "DepictionStackView",
+           "tabname": "Changelog"
         }
     ],
     "headerImage": "https://github.com/YuigaWada/CallSlicer/blob/master/Sources/Prefs/Resources/CallSlicer.png?raw=true",
