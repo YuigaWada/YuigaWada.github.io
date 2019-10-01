@@ -17,7 +17,7 @@
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<p>Package Description<\/p>",
+               "markdown": "Apple Watch does not show you notifications of LINE call.\n\n **CallSlicer enables you to receive LINE call on your Apple Watch!** \n\n\n(The reason why Apple Watch does not is LINE uses Apple's API *CallKit* that integrates the third-party calling apps into the iOS, but Apple Watch doesn't support CallKit.)",
                "useRawFormat": true
             },
             {
@@ -25,18 +25,6 @@
                "useBoldText": true,
                "useBottomMargin": false,
                "title": ""
-            },
-            {
-               "class": "DepictionScreenshotsView",
-               "itemCornerRadius": 6,
-               "itemSize": "{160, 284.44444444444}",
-               "screenshots": [
-                  {
-                     "accessibilityText": "Screenshot",
-                     "url": "Screenshot URL 1",
-                     "fullSizeURL": "Screenshot URL 1"
-                  }
-               ]
             },
             {
                "class": "DepictionSeparatorView"
@@ -50,17 +38,17 @@
             {
                "class": "DepictionTableTextView",
                "title": "Author",
-               "text": "Package Developer"
+               "text": "YuWd"
             },
             {
                "class": "DepictionTableTextView",
                "title": "Version",
-               "text": "Latest Version Number"
+               "text": "1.0"
             },
             {
                "class": "DepictionTableTextView",
                "title": "Price",
-               "text": "Package Price"
+               "text": "Free"
             },
             {
                "class": "DepictionSpacerView",
@@ -92,11 +80,11 @@
                "class": "DepictionSubheaderView",
                "useBoldText": true,
                "useBottomMargin": false,
-               "title": "Version Number"
+               "title": "1.0"
             },
             {
                "class": "DepictionMarkdownView",
-               "markdown": "<ul>\n<li>Version Changes<\/li>\n<\/ul>",
+               "markdown": "<ul>\n<li>Initial release!<\/li>\n<\/ul>",
                "useRawFormat": true
             }
          ]
