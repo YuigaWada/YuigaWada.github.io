@@ -1,6 +1,6 @@
 {
-    "minVersion": "0.1",
-    "tintColor": "#0657bb",
+    "minVersion": "1.0",
+    "tintColor": "#1dcd00",
     "tabs": [
         {
             "views": [
@@ -11,7 +11,7 @@
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "A tweak that enables you to receive LINE call on your Apple Watch!",
+                    "markdown": "<p>A tweak that enables you to receive LINE call on your Apple Watch!</p>",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -71,6 +71,23 @@
             ],
             "class": "DepictionStackView",
             "tabname": "Details"
+        },{
+           "tabname": "Changelog",
+           "class": "DepictionStackView",
+           "tintColor": "#1dcd00",
+           "views": [
+              {
+                 "class": "DepictionSubheaderView",
+                 "useBoldText": true,
+                 "useBottomMargin": false,
+                 "title": "1.0"
+              },
+              {
+                 "class": "DepictionMarkdownView",
+                 "markdown": "<ul>\n<li>Initial release!<\/li>\n<\/ul>",
+                 "useRawFormat": true
+              }
+           ]
         }
     ],
     "headerImage": "https://github.com/YuigaWada/CallSlicer/blob/master/Sources/Prefs/Resources/CallSlicer.png?raw=true",
