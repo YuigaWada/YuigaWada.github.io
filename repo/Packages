@@ -1,15 +1,15 @@
 Package: com.yuigawada.callslicer
 Architecture: iphoneos-arm
-Version: 1.0
+Version: 1.1
 Section: Tweaks
 Maintainer: YuWd
 Filename: ./debs/com.yuigawada.callslicer.deb
 Size: 85648
-MD5sum: 568ea16ace2b10f3d85728ef957a8150
-SHA1: 8543797dee3dd051e471ba665f4b36e5879a879f
-SHA256: 7b7ab9fb9cbb6104e34dbb3b745e43261134b7158e1b264dd5f03ab1c1938f73
-SHA512: 8d6b83799e93b64c50ad575adfad331a5fe53c70c0d954b82b67a7eeaa01f5a40436f2395309fdaa588114849118e690a85a197b7a831894ffef46cadfa35a1f
-Description: A tweak that enables you to receive LINE call on your Apple Watch!
+MD5sum: ac24ee48f3ccafa8d4e2334781750633
+SHA1: 6ffd5c9dc7d9a3714792b161a4d892b75427a6a1
+SHA256: 63687c15ca99dcaea60d33f667b188f72f22d63053b813ae816fce7cb51ca5b0
+SHA512: 165efa24c1516199a3c9167206277ba70a0a4641a5e4625085563f06d6d640408fdb4bb6fc993ae36e6c934c557f4eb10e0219fa24a07645fc8a107f4d8136be
+Description: Enables your Apple Watch to show a third-party incoming call.
 Name: CallSlicer
 Depiction: https://yuigawada.github.io/repo/descriptions/CallSlicer
 SileoDepiction: https://yuigawada.github.io/repo/descriptions/CallSlicer/sileo.json
