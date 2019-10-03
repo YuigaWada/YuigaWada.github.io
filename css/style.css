@@ -845,3 +845,6 @@ a {
 .blockquote img {
   width: 40px;
   border-radius: 50%; }
+
+  .mb-5x{
+    margin-bottom: 100px }
