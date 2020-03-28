@@ -2046,11 +2046,13 @@ a:hover.back-to-top {
 		margin-left: 4rem;
 		margin-right: 1.5rem;
 	}
-
-  .basic-2 .detail-image {
+@media screen and (min-width: 1024px) {
+  .basic-2 #detail-image {
+    max-width: 200% !important;
     width: auto;
     height: 80vh;
   }
+}
 	/* end of details 1 */
 
 
@@ -2061,10 +2063,13 @@ a:hover.back-to-top {
 		margin-left: 2rem;
 	}
 
-  .basic-3 .detail-image {
+@media screen and (min-width: 1024px) {
+  .basic-3 #detail-image {
+    max-width: 200% !important;
     width: auto;
     height: 80vh;
   }
+}
 	/* end of details 2 */
 
 
